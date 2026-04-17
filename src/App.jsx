@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from ‘react’;
+import React, { useState, useEffect } from 'react';
 import { Sun, Moon, Scroll, Target, Feather, Check, Plus, X, Flame, Scale, Shield, Leaf, TrendingUp, Calendar, AlertCircle, Download, Upload, Settings, Lock } from ‘lucide-react’;
 
 const MEDITATIONS = [
