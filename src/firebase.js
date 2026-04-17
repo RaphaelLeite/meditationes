@@ -5,12 +5,12 @@ import { getFirestore, doc, getDoc, setDoc, deleteDoc, collection, getDocs, quer
 // PASTE YOUR FIREBASE CONFIG BELOW (from Step 2 of the guide)
 // =====================================================
 const firebaseConfig = {
-  apiKey: "PASTE_YOUR_API_KEY_HERE",
-  authDomain: "PASTE_YOUR_AUTH_DOMAIN_HERE",
-  projectId: "PASTE_YOUR_PROJECT_ID_HERE",
-  storageBucket: "PASTE_YOUR_STORAGE_BUCKET_HERE",
-  messagingSenderId: "PASTE_YOUR_SENDER_ID_HERE",
-  appId: "PASTE_YOUR_APP_ID_HERE"
+  apiKey: "AIzaSyBRwR9lPKUl55AE3GJd6w6qcrM7TzzCN3w",
+  authDomain: "meditationes-60cca.firebaseapp.com",
+  projectId: "meditationes-60cca",
+  storageBucket: "meditationes-60cca.firebasestorage.app",
+  messagingSenderId: "1057068639173",
+  appId: "1:1057068639173:web:96e68f21106888d9f061ac"
 };
 // =====================================================
 
