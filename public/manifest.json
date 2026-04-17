@@ -4,8 +4,8 @@
   "description": "A Stoic self-development system",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#f4ede0",
-  "theme_color": "#f4ede0",
+  "background_color": "#141210",
+  "theme_color": "#141210",
   "icons": [
     {
       "src": "/icon-192.png",
