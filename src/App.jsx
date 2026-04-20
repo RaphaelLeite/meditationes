@@ -85,8 +85,12 @@ export default function Meditationes() {
   const totalDays = Object.keys(journalHistory).length;
   const streak = (() => {
     let s = 0; const d = new Date();
+    if (d.getHours() < 4) d.setDate(d.getDate() - 1);
     while (true) {
-      const k = d.toISOString().split('T')[0];
+      const y = d.getFullYear();
+      const m = String(d.getMonth() + 1).padStart(2, '0');
+      const day = String(d.getDate()).padStart(2, '0');
+      const k = y + '-' + m + '-' + day;
       const entry = k === today ? { morning: morningEntry, evening: eveningEntry } : journalHistory[k];
       if (entry) {
         const has = (entry.morning && (entry.morning.intention || entry.morning.obstacle || entry.morning.gratitude)) ||
